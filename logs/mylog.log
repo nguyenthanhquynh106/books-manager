@@ -1,0 +1,87 @@
+2022-04-19 15:24:01.751  INFO 17012 --- [restartedMain] c.q.bookmanager.BookManagerApplication   : Starting BookManagerApplication using Java 11.0.11 on Quynh with PID 17012 (F:\k13\book-manager\target\classes started by admin in F:\k13\book-manager)
+2022-04-19 15:24:01.766  INFO 17012 --- [restartedMain] c.q.bookmanager.BookManagerApplication   : No active profile set, falling back to default profiles: default
+2022-04-19 15:24:01.835  INFO 17012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-19 15:24:01.836  INFO 17012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-19 15:24:03.161  INFO 17012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-19 15:24:03.245  INFO 17012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2022-04-19 15:24:05.363  INFO 17012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-19 15:24:05.378  INFO 17012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-19 15:24:05.378  INFO 17012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2022-04-19 15:24:05.517  INFO 17012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-19 15:24:05.518  INFO 17012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3680 ms
+2022-04-19 15:24:05.782  INFO 17012 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-19 15:24:05.870  INFO 17012 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-04-19 15:24:06.108  INFO 17012 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-19 15:24:06.272  INFO 17012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-19 15:24:06.504  INFO 17012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-19 15:24:06.524  INFO 17012 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-19 15:24:07.552  INFO 17012 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-19 15:24:07.561  INFO 17012 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-19 15:24:08.531  WARN 17012 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-19 15:24:11.552  INFO 17012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-19 15:24:11.612  INFO 17012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-19 15:24:11.635  INFO 17012 --- [restartedMain] c.q.bookmanager.BookManagerApplication   : Started BookManagerApplication in 10.787 seconds (JVM running for 13.395)
+2022-04-19 15:24:26.319  INFO 17012 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-19 15:24:26.320  INFO 17012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-19 15:24:26.322  INFO 17012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-19 15:24:26.355  INFO 17012 --- [http-nio-8080-exec-1] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:26.356  INFO 17012 --- [http-nio-8080-exec-1] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:26.357  INFO 17012 --- [http-nio-8080-exec-1] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/
+2022-04-19 15:24:26.357  INFO 17012 --- [http-nio-8080-exec-1] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: {}
+2022-04-19 15:24:26.357  INFO 17012 --- [http-nio-8080-exec-1] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
+2022-04-19 15:24:29.741  WARN 17012 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [432] milliseconds.
+2022-04-19 15:24:29.983  INFO 17012 --- [http-nio-8080-exec-2] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:29.983  INFO 17012 --- [http-nio-8080-exec-2] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:29.983  INFO 17012 --- [http-nio-8080-exec-2] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/home
+2022-04-19 15:24:29.983  INFO 17012 --- [http-nio-8080-exec-2] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: {ERROR=Username hoặc password không tồn tại!}
+2022-04-19 15:24:29.983  INFO 17012 --- [http-nio-8080-exec-2] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
+2022-04-19 15:24:36.407  INFO 17012 --- [http-nio-8080-exec-5] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:36.408  INFO 17012 --- [http-nio-8080-exec-5] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:36.408  INFO 17012 --- [http-nio-8080-exec-5] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/home
+2022-04-19 15:24:36.408  INFO 17012 --- [http-nio-8080-exec-5] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: {}
+2022-04-19 15:24:36.408  INFO 17012 --- [http-nio-8080-exec-5] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
+2022-04-19 15:24:38.549  INFO 17012 --- [http-nio-8080-exec-6] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:38.549  INFO 17012 --- [http-nio-8080-exec-6] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:38.549  INFO 17012 --- [http-nio-8080-exec-6] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/books/list
+2022-04-19 15:24:38.549  INFO 17012 --- [http-nio-8080-exec-6] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: {LIST_BOOK=Page 1 of 12 containing com.quynhdev.bookmanager.model.Book instances, pageNumbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}
+2022-04-19 15:24:38.549  INFO 17012 --- [http-nio-8080-exec-6] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
+2022-04-19 15:24:38.635  INFO 17012 --- [http-nio-8080-exec-7] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:38.635  INFO 17012 --- [http-nio-8080-exec-7] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:38.635  INFO 17012 --- [http-nio-8080-exec-7] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/getimage/anh.png
+2022-04-19 15:24:38.635  INFO 17012 --- [http-nio-8080-exec-7] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: anh.png
+2022-04-19 15:24:38.635  INFO 17012 --- [http-nio-8080-exec-7] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
+2022-04-19 15:24:41.237  INFO 17012 --- [http-nio-8080-exec-8] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:41.237  INFO 17012 --- [http-nio-8080-exec-8] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:41.237  INFO 17012 --- [http-nio-8080-exec-8] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/books/list
+2022-04-19 15:24:41.237  INFO 17012 --- [http-nio-8080-exec-8] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: {LIST_BOOK=Page 1 of 12 containing com.quynhdev.bookmanager.model.Book instances, pageNumbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}
+2022-04-19 15:24:41.237  INFO 17012 --- [http-nio-8080-exec-8] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
+2022-04-19 15:24:41.278  INFO 17012 --- [http-nio-8080-exec-9] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:41.279  INFO 17012 --- [http-nio-8080-exec-9] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:41.279  INFO 17012 --- [http-nio-8080-exec-9] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/getimage/anh.png
+2022-04-19 15:24:41.279  INFO 17012 --- [http-nio-8080-exec-9] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: anh.png
+2022-04-19 15:24:41.280  INFO 17012 --- [http-nio-8080-exec-9] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
+2022-04-19 15:24:41.729  INFO 17012 --- [http-nio-8080-exec-10] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:41.730  INFO 17012 --- [http-nio-8080-exec-10] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:41.730  INFO 17012 --- [http-nio-8080-exec-10] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/books/list
+2022-04-19 15:24:41.730  INFO 17012 --- [http-nio-8080-exec-10] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: {LIST_BOOK=Page 2 of 12 containing com.quynhdev.bookmanager.model.Book instances, pageNumbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}
+2022-04-19 15:24:41.731  INFO 17012 --- [http-nio-8080-exec-10] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
+2022-04-19 15:24:41.770  INFO 17012 --- [http-nio-8080-exec-1] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:41.771  INFO 17012 --- [http-nio-8080-exec-1] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:41.771  INFO 17012 --- [http-nio-8080-exec-1] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/getimage/anh.png
+2022-04-19 15:24:41.771  INFO 17012 --- [http-nio-8080-exec-1] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: anh.png
+2022-04-19 15:24:41.771  INFO 17012 --- [http-nio-8080-exec-1] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
+2022-04-19 15:24:42.575  INFO 17012 --- [http-nio-8080-exec-2] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:42.575  INFO 17012 --- [http-nio-8080-exec-2] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:42.576  INFO 17012 --- [http-nio-8080-exec-2] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/books/list
+2022-04-19 15:24:42.576  INFO 17012 --- [http-nio-8080-exec-2] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: {LIST_BOOK=Page 5 of 12 containing com.quynhdev.bookmanager.model.Book instances, pageNumbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}
+2022-04-19 15:24:42.576  INFO 17012 --- [http-nio-8080-exec-2] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
+2022-04-19 15:24:42.611  INFO 17012 --- [http-nio-8080-exec-3] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:42.611  INFO 17012 --- [http-nio-8080-exec-3] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:42.611  INFO 17012 --- [http-nio-8080-exec-3] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/getimage/anh.png
+2022-04-19 15:24:42.611  INFO 17012 --- [http-nio-8080-exec-3] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: anh.png
+2022-04-19 15:24:42.612  INFO 17012 --- [http-nio-8080-exec-3] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
+2022-04-19 15:24:44.843  INFO 17012 --- [http-nio-8080-exec-6] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : =================Logging information=================
+2022-04-19 15:24:44.844  INFO 17012 --- [http-nio-8080-exec-6] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : IP of client: 192.168.42.1
+2022-04-19 15:24:44.844  INFO 17012 --- [http-nio-8080-exec-6] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Access URL: http://localhost:8080/goHome
+2022-04-19 15:24:44.844  INFO 17012 --- [http-nio-8080-exec-6] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : Request body: org.apache.catalina.session.StandardSessionFacade@446cbbdb
+2022-04-19 15:24:44.844  INFO 17012 --- [http-nio-8080-exec-6] pAspect$$EnhancerBySpringCGLIB$$2d3a1a18 : request param: null
